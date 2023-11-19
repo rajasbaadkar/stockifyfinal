@@ -1,0 +1,55 @@
+.stockify-home__whystockify{
+   max-width: 100%;
+   height: 65vmax;
+}
+
+.stockify-home__whystockify > h1{
+    color: var(--font-clr);
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 2.5vmax;
+}
+
+.stockify-home__whystockify-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 23vmax;
+    position: relative;
+    z-index: 0;
+    padding: 0 15em;
+    margin: 15px 0;
+}
+
+.stockify-home__whystockify-analysis{
+    display: flex;
+    width: 100%;
+    height: 55%;
+    perspective: 550px;
+}
+
+.stockify-home__whystockify-analysis-left{
+    color: var(--font-clr);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stockify-home__whystockify-analysis-left>h1{
+    width: 85%;
+}
+.stockify-home__whystockify-analysis-left>p{
+    margin: 25px 0;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.stockify-home__whystockify-analysis-right{
+    padding: 5rem;
+    transform: rotateY(-30deg) translateX(-60px);
+}
+
+.stockify-home__whystockify-analysis-right>img{
+    height: 100%;
+}

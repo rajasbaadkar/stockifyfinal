@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    font-family: "Roboto";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --background-clr: rgb(0, 0, 0);
+    --font-clr: rgb(244, 239, 230);
+}
+
+a{
+    text-decoration: none;
+    color: var(--font-clr);
+}
+
+.margin__top{
+    margin-top: 4rem;
+}
+
+.margin{
+    margin: 2vmax;
+}
+
+.padding{
+    padding: 5em 3em;
+}

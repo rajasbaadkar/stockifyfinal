@@ -1,0 +1,24 @@
+.stockify__news{
+    background-color: var(--background-clr);
+    max-width: 100vw;
+    min-height: 100vh;
+    color: var(--font-clr);
+}
+
+.stockify__news > h1{
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 2.5vmax;
+    text-transform: uppercase;
+}
+
+.stockify__news-container{
+    width: 85%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 25px;
+    margin: auto;
+}

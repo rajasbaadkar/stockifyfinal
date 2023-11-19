@@ -1,0 +1,6 @@
+.stockify__table{
+    position: relative;
+    border: 5px solid transparent;
+    border-image: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100% );
+    border-image-slice: 1;
+}

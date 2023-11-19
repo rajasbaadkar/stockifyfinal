@@ -1,0 +1,34 @@
+.stockify__newscard{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.1em auto;
+    height: fit-content;
+}
+
+.stockify__newscard-img{
+    object-fit:scale-down;
+    display: flex;
+    width: 348px;
+    height: 195px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.stockify__newscard-heading{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 1.3vmax;
+    padding: 12px 12px;
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.stockify__newscard-btn{
+    border: solid 2px red;
+}

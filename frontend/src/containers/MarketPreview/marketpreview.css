@@ -1,0 +1,21 @@
+.stockify__home-marketpreview{
+    max-width: 100vmax;
+    height: 40vmax;
+    margin-bottom: 0;
+}
+
+.stockify__home-marketpreview > h1{
+    color: var(--font-clr);
+    text-align: center;
+    margin: 2.2vmax 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.stockify__home-marketpreview-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 3.5vmin 0;
+}
